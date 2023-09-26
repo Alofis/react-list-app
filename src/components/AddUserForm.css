@@ -1,0 +1,42 @@
+.form-container{
+    display: grid;
+    background-color:blanchedalmond;
+    padding: 10px 0 10px 0;
+}
+.form-controls {
+    place-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    transition: width 0.4s ease-in-out
+}
+
+.form-controls label, input{
+    padding: 2px;
+    margin: 2px
+}
+
+.form-controls button{
+    padding: 10px;
+    margin: 10px 0 10px 0;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out
+
+}
+.form-controls button:hover, button:focus{
+    background-color: rgb(113, 113, 219);
+    color: white;
+}
+
+@media (max-width:600px) {
+    .form-controls label, input{
+        margin: 5px 10px 5px 10px;
+    }
+    .form-controls button{
+        margin: 15px 10px;
+    }
+    .form-controls{
+        width: 100%;
+        margin: 20px 0 20px 0;
+    }
+}
