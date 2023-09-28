@@ -1,32 +1,20 @@
-.form-container{
-    display: grid;
-    background-color:blanchedalmond;
-    padding: 10px 0 10px 0;
-}
+
 .form-controls {
     place-self: center;
     display: flex;
     flex-direction: column;
-    width: 60%;
+    align-items: center;
+    width: 100%;
     transition: width 0.4s ease-in-out
 }
 
 .form-controls label, input{
     padding: 2px;
-    margin: 2px
+    margin: 2px;
+    width: 400px;
 }
 
-.form-controls button{
-    padding: 10px;
-    margin: 10px 0 10px 0;
-    cursor: pointer;
-    transition: all 0.4s ease-in-out
 
-}
-.form-controls button:hover, button:focus{
-    background-color: rgb(113, 113, 219);
-    color: white;
-}
 
 @media (max-width:600px) {
     .form-controls label, input{

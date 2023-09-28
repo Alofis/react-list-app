@@ -1,29 +1,38 @@
-.error-module {
+.backdrop {
     position: absolute;
-    background: rgba(0, 0, 0, 0.588);
+    background: transparent;
     top: 0;
+    left: 0;
     height: 100vh;
     width: 100%;
-    display: grid;
 }
-.error-mobule__msg {
-    place-self: center;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: red;
+.error_mobule__msg {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
     height: 300px;
     width: 600px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
 }
-
-.error-mobule__msg h1{
+.error_header {
+    background: rgb(127, 18, 18);
     text-align: center;
+    color: rgb(255, 255, 255);
 }
 
-.error-mobule__msg button{
-    height: 50px;
-    width: 100px;
+.error_details {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.error_footer {
+    display: flex;
+    justify-content: end;
 }

@@ -1,10 +1,11 @@
 import UserListItem from './UserListItem'
 import './UserList.css'
+import Card from './UI/Card'
 
 const UserList = (props) => {
     console.log(props.userListData)
     return (
-        <div className='container'>
+        <Card>
             <div className='list-container'>
                 <ul>
                 {props.userListData.map((item,index) => <UserListItem 
@@ -14,7 +15,7 @@ const UserList = (props) => {
                 />)}
                 </ul>
             </div>
-        </div>
+        </Card>
     )
 }
 

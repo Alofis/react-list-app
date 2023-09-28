@@ -14,6 +14,10 @@
 .list-item {
     margin: 10px 0 10px 0;
 }
+.list-item {
+    background: rgb(254, 254, 254);
+    padding: 10px
+}
 
 @media (max-width:600px) {
     .list-container ul {

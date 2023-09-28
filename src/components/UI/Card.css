@@ -1,0 +1,21 @@
+.container {
+    display: grid;
+    background-color: rgba(104, 111, 86, 0.332);
+}
+.card {
+    place-self: center;
+    width: 600px;
+    background-color: rgb(162, 176, 202);
+    border-radius: 5px;
+    margin: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (max-width:600px) {
+    .card {
+        width: 300px;
+    }
+}

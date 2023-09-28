@@ -1,0 +1,14 @@
+.ui__button{
+    padding: 10px;
+    margin: 10px 20px 10px 20px;
+    cursor: pointer;
+    outline: inherit;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+    appearance: none;
+}
+.ui__button:hover, button:focus{
+    background-color: rgb(113, 113, 219);
+    color: white;
+}
